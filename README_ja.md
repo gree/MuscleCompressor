@@ -4,7 +4,7 @@
 - Meta QuestなどのVR機器装着時の動きを実際に外部保存・読み出しするモーションキャプチャーとして動作するサンプルシーンが含まれています。
 - 60fpsで1分のHumanoid録画のデータサイズ比較。MuscleCompressorのフォーマットは既存フォーマットより軽量です（.animの場合最大96%圧縮)
 
-![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/MuscleCompressor.png?raw=true)
+![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleCompressor.png?raw=true)
 
 
 ## 動作環境
@@ -14,6 +14,7 @@
 
 ## 使い方 (モーション保存)
 
+https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/Muscle-Recording.mp4
 
 1. Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをインポート
 2. Assets/VRStudioLab/Scenes/RecordSceneSample.unityを開き、RecordingManager内のRecording Datasに収録モーションの保存名(Name)と長さ(Duration)を入力
@@ -21,8 +22,9 @@
 4. アバター読み込み後、READYボタンを押してからDuration秒のモーションがAssets/StreamingAssets/Motionに保存される
 
 
-## (ToDo) 使い方 (モーション読み出し)
+## 使い方 (モーション読み出し)
 
+https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/MuscleLoading.mp4
 
 ### ランタイム読み出し
 1. (Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをインポートする)
