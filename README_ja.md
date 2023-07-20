@@ -1,8 +1,10 @@
 # MuscleCompressor
 
-- UnityのHumanoidアニメーションを従来の.animではなく、Muscleを使って軽量に外部保存・読み出しするためのスクリプトです。
+- UnityのHumanoidアニメーションを従来の.animではなく、[Muscle](https://docs.unity3d.com/ja/2017.4/Manual/MuscleDefinitions.html)を使って軽量に外部保存・読み出しするためのスクリプトです。
 - Meta QuestなどのVR機器装着時の動きを実際に外部保存・読み出しするモーションキャプチャーとして動作するサンプルシーンが含まれています。
 - 60fpsで1分のHumanoid録画のデータサイズ比較。MuscleCompressorのフォーマットは既存フォーマットより軽量です（.animの場合最大96%圧縮)
+
+![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/MuscleCompressor.png?raw=true)
 
 
 ## 動作環境
@@ -11,7 +13,7 @@
 - Final IK (別途インポート必要)
 
 ## 使い方 (モーション保存)
-https://github.com/reality-inc/MuscleCompressor/assets/79638033/ea09b26e-78f9-4207-9065-9bfe0bf4d212
+
 
 1. Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをインポート
 2. Assets/VRStudioLab/Scenes/RecordSceneSample.unityを開き、RecordingManager内のRecording Datasに収録モーションの保存名(Name)と長さ(Duration)を入力

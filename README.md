@@ -4,7 +4,7 @@
 - This project can handle Unity Humanoid animations externally using Muscle instead of the conventional .anim.
 - It includes a sample scene that works as a motion capture that actually saves and reads out the motion when wearing VR equipment such as Meta Quest.
 - Data size comparison of 1 minute of Humanoid recording at 60 fps; MuscleCompressor format is lighter than existing formats (up to 96% compression for .anim)
-![image](https://github.com/reality-inc/MuscleCompressor/assets/5110708/c9e5a80c-6547-400f-91ee-0d40eaf6e8e5)
+![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/MuscleCompressor.png?raw=true)
 
 
 ## Environment
