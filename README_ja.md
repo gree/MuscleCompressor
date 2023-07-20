@@ -14,7 +14,7 @@
 
 ## 使い方 (モーション保存)
 
-https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/Muscle-Recording.mp4
+https://github.com/gree/MuscleCompressor/assets/5110708/8520bcc3-f59d-43ad-b7a9-d236f2846591
 
 1. Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをインポート
 2. Assets/VRStudioLab/Scenes/RecordSceneSample.unityを開き、RecordingManager内のRecording Datasに収録モーションの保存名(Name)と長さ(Duration)を入力
@@ -24,7 +24,7 @@ https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/Muscle-Recording.m
 
 ## 使い方 (モーション読み出し)
 
-https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/MuscleLoading.mp4
+https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-3b40ab4ab0d9
 
 ### ランタイム読み出し
 1. (Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをインポートする)

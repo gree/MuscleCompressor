@@ -16,9 +16,7 @@
 
 ## How to use (Motion Recording)
 
-https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleLoading.mp4
-
-https://github.com/reality-inc/MuscleCompressor/assets/79638033/ea09b26e-78f9-4207-9065-9bfe0bf4d212
+https://github.com/gree/MuscleCompressor/assets/5110708/8520bcc3-f59d-43ad-b7a9-d236f2846591
 
 1. Open this project with Unity 2021.3.19 and import Oculus Integration and Final IK
 2. Go to Assets/VRStudioLab/Scenes/RecordSceneSample.unity and add Recording Datas in Recording Manager
@@ -27,7 +25,7 @@ https://github.com/reality-inc/MuscleCompressor/assets/79638033/ea09b26e-78f9-42
 
 ## How to use (Motion Loading)
 
-https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/MuscleLoading.mp4
+https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-3b40ab4ab0d9
 
 ### Runtime load
 1. (Open this project with Unity 2021.3.19 and import Oculus Integration and Final IK)
