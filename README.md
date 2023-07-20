@@ -16,7 +16,7 @@
 
 ## How to use (Motion Recording)
 
-https://github.com/gree/MuscleCompressor/raw/readme-imgs/imgs/Muscle-Recording.mp4
+https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleLoading.mp4
 
 https://github.com/reality-inc/MuscleCompressor/assets/79638033/ea09b26e-78f9-4207-9065-9bfe0bf4d212
 
