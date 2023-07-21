@@ -35,6 +35,8 @@ https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-
 3. After click the button "Load Motion", a file browser will open. Go to the motion strage location (Assets/StreamingAssets/Motion) and select .data file.
 4. Motion is applied to the avatar in the scene
 
+Sample motions are included in Assets/StreamingAssets/Motion for testing.
+
 ### Convert to animation clips
 1. (Open this project with Unity 2021.3.19 and import Oculus Integration and Final IK from Package Manager)
 2. Click VRStudioLab>Bytes2Anim in the menu at the top of Unity
