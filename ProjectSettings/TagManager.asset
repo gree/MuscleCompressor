@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - MainCharacter
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - HandInteraction
+  - AvatarInteraction
+  - VRMFirstPersonOnly
+  - VRMThirdPersonOnly
   - 
   - 
   - 
