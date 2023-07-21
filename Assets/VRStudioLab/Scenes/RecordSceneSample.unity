@@ -1256,6 +1256,7 @@ MonoBehaviour:
   useLegacyCubemapRotation: 0
   useEfficientSupersample: 0
   useEfficientSharpen: 0
+  useAutomaticFiltering: 0
   _previewInEditor: 0
 --- !u!23 &1008346654
 MeshRenderer:
@@ -2251,7 +2252,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1965676712}
   - component: {fileID: 1965676711}
-  - component: {fileID: 1965676710}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2259,14 +2259,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1965676710
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965676709}
-  m_Enabled: 1
 --- !u!20 &1965676711
 Camera:
   m_ObjectHideFlags: 0
@@ -2821,9 +2813,9 @@ MonoBehaviour:
   recordingText: {fileID: 1976989578}
   recordCueHandler: {fileID: 1990006247}
   RecordingDatas:
-  - Name: RecTest
-    Text: RecTest
-    Duration: 5
+  - Name: SampleMotion
+    Text: SampleMotion
+    Duration: 10
 --- !u!4 &2025626395
 Transform:
   m_ObjectHideFlags: 0
