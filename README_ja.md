@@ -34,6 +34,8 @@ https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-
 3. Load Motionボタンを押すとファイルブラウザが立ち上がるので、モーション保存場所（Assets/StreamingAssets/Motion）へ行き、.dataを選択
 4. モーションがシーンのアバターに適用される
 
+Assets/StreamingAssets/Motionにサンプルモーションを同梱しているので、テスト等にご活用ください。
+
 ### アニメーションクリップへの変換
 1. (Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをPackage Managerからインポート)
 2. Unity上部のメニューからVRStudioLab -> Bytes2Animを押す
