@@ -9,8 +9,8 @@
 
 ## 動作環境
 - Unity 2021.3.19f1
-- Oculus Integration 53.1 (別途インポート必要)
-- Final IK (別途インポート必要)
+- [Oculus Integration 53.1 (別途インポート必要)](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)
+- [Final IK (別途インポート必要)](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
 
 ## 使い方 (モーション保存)
 
