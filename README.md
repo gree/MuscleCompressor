@@ -11,8 +11,8 @@
 
 ## Environment
 - Unity 2021.3.19f1
-- Oculus Integration 53.1 (Separate import)
-- Final IK (Separate import)
+- [Oculus Integration 53.1 (Separate import)](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022)
+- [Final IK (Separate import)](https://assetstore.unity.com/packages/tools/animation/final-ik-14290)
 
 ## How to use (Motion Recording)
 
