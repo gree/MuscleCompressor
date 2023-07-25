@@ -19,10 +19,9 @@ namespace VRStudioLab.Scripts
         [SerializeField] private string externalSaveLocation = Application.streamingAssetsPath + "/Motion";
         public string fileName;
         public bool isHighCompression;
-        private bool isRecording = false;
         private MotionDataClass _frame = new();
         private CancellationTokenSource _cts = new();
-        private float startTime;
+        public float startTime;
         private List<MotionDataClass> Frames = new List<MotionDataClass>();
 
         private void Start()
@@ -39,12 +38,10 @@ namespace VRStudioLab.Scripts
         {
             Frames = new List<MotionDataClass>();
             _cts = new CancellationTokenSource();
-            
-            RecordMuscleFrameDataAsync().Forget();
-   
             startTime = Time.time;
             guid = Guid.NewGuid().ToString();
-            isRecording = true;
+
+            RecordMuscleFrameDataAsync().Forget();
         }
 
         public void EndRecord()
@@ -392,10 +389,7 @@ namespace VRStudioLab.Scripts
                         Transforms = animations,
                     };
 
-                    if (isRecording == true)
-                    {
-                        Frames.Add(_frame);
-                    }
+                    Frames.Add(_frame);
 
                     _frame = new MotionDataClass();
                     await UniTask.Delay(TimeSpan.FromSeconds((float)1 / targetFps));
