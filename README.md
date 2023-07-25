@@ -10,7 +10,7 @@
 
 ## Environment
 - Unity 2021.3.19f1
-- [Oculus Integration 53.1](https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022) (Separate import)
+- [Oculus Integration 53.1](https://developer.oculus.com/downloads/package/unity-integration/53.1) (Separate import)
 - [Final IK](https://assetstore.unity.com/?q=Final%20IK&orderBy=1) (Separate import)
 - Windows 10 x64
 - Meta Quest 2
