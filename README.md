@@ -1,7 +1,7 @@
 # MuscleCompressor
 
 - This project can handle Unity Humanoid animations externally using [muscle](https://docs.unity3d.com/2017.4/Documentation/Manual/MuscleDefinitions.html) instead of the conventional .anim.
-- It includes a sample scene for PCVR that works as a motion capture that actually saves and reads out the motion when wearing VR equipment such as Meta Quest.
+- It includes a sample scene for PCVR that works as a motion capture that actually reads out and saves the motion when wearing VR equipment such as Meta Quest.
 - Data size comparison of 1 minute of Humanoid recording at 60 fps; MuscleCompressor format is lighter than existing formats (up to 96% compression for .anim)
 
 ![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleCompressor.png?raw=true)
@@ -31,7 +31,7 @@ Sample motions are included in Assets/StreamingAssets/Motion for testing.
 ### Convert to animation clips
 1. (Open this project with Unity 2021.3.19 and import Oculus Integration and Final IK from Package Manager)
 2. Click VRStudioLab>Bytes2Anim in the menu at the top of Unity
-3. A file browser will open. Go to the motion strage location (Assets/StreamingAssets/Motion) and select .data file.
+3. A file browser will open. Go to the motion storage location (Assets/StreamingAssets/Motion) and select .data file.
 4. Converted clip is saved in Assets/VRStudioLab/Animations
 
 ## How to use (Motion Recording)
