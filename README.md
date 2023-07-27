@@ -22,9 +22,10 @@ https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-
 
 ### Runtime load
 1. Open this project with Unity 2021.3.19 and import Oculus Integration and Final IKfrom Package Manager
-2. Go to Assets/VRStudioLab/Scenes/LoadSceneSample.unity and play the scene
-3. After click the button "Load Motion", a file browser will open. Go to the motion strage location (Assets/StreamingAssets/Motion) and select .data file.
-4. Motion is applied to the avatar in the scene
+2. Go and open the scene at Assets/VRStudioLab/Scenes/LoadSceneSample.unity
+3. If prompted import TMP essentials and extras, then and play the scene
+4. After click the button "Load Motion", a file browser will open. Go to the motion strage location (Assets/StreamingAssets/Motion) and select .data file.
+5. Motion is applied to the avatar in the scene
 
 Sample motions are included in Assets/StreamingAssets/Motion for testing.
 
@@ -39,9 +40,11 @@ Sample motions are included in Assets/StreamingAssets/Motion for testing.
 https://github.com/gree/MuscleCompressor/assets/5110708/8520bcc3-f59d-43ad-b7a9-d236f2846591
 
 1. (Open this project with Unity 2021.3.19 and import Oculus Integration and Final IK from Package Manager)
-2. Go to Assets/VRStudioLab/Scenes/RecordSceneSample.unity and add Recording Datas in Recording Manager
-3. Play the scene wearing VR Device
-4. After an avatar is loaded, push the READY button. The motion recorded for Duration seconds is saved in Assets/StreamingAssets/Motion
+2. Go and open the scene at Assets/VRStudioLab/Scenes/RecordSceneSample.unity
+3. If prompted import TMP essentials and extras, then and play the scene
+4. Add a Recording Datas in Recording Manager (From this you can control the motion duration and name)
+5. Play the scene wearing VR Device
+6. After an avatar is loaded, push the READY button. The motion recorded for Duration seconds is saved in Assets/StreamingAssets/Motion
 
 
 
