@@ -1,7 +1,7 @@
 # MuscleCompressor
 
 - This project can handle Unity Humanoid animations externally using [muscle](https://docs.unity3d.com/2017.4/Documentation/Manual/MuscleDefinitions.html) instead of the conventional .anim.
-- It includes a sample scene for PCVR that works as a motion capture that actually reads out and saves the motion when wearing VR equipment such as Meta Quest.
+- It includes a sample scene for PCVR that works as a QueTra-based motion capture that actually reads out and saves the motion when wearing VR equipment such as Meta Quest.
 - Data size comparison of 1 minute of Humanoid recording at 60 fps; MuscleCompressor format is lighter than existing formats (up to 96% compression for .anim)
 
 ![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleCompressor.png?raw=true)
