@@ -1,7 +1,7 @@
 # MuscleCompressor
 
 - UnityのHumanoidアニメーションを従来の.animではなく、[Muscle](https://docs.unity3d.com/ja/2017.4/Manual/MuscleDefinitions.html)を使って軽量に外部保存・読み出しするためのスクリプトです。
-- Meta QuestなどVR機器装着時の動きを外部保存・読み出しするPCVR用サンプルシーンが含まれています。
+- Meta QuestなどVR機器装着時の動きをキャプチャする、"QueTra"ベースのPCVR用サンプルシーンが含まれています。
 - 60fpsで記録した1分間のHumanoidモーションのデータサイズ比較。MuscleCompressorのフォーマットは既存フォーマットより軽量です（.animと比較して96%の圧縮)
 
 ![image](https://github.com/gree/MuscleCompressor/blob/readme-imgs/imgs/MuscleCompressor.png?raw=true)
