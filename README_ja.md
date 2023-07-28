@@ -23,8 +23,9 @@ https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-
 ### ランタイム読み出し
 1. Unity 2021.3.19f1でこのプロジェクトを開いたらOculus IntegrationとFinal IKをPackage Managerからインポート
 2. Assets/VRStudioLab/Scenes/LoadSceneSample.unityを開き、実行
-3. Load Motionボタンを押すとファイルブラウザが立ち上がるので、モーション保存場所（Assets/StreamingAssets/Motion）へ行き、.dataを選択
-4. モーションがシーンのアバターに適用される
+3. TextMeshProが入っていない場合ポップアップが出るので、TMP essentialsをインポート
+4. Load Motionボタンを押すとファイルブラウザが立ち上がるので、モーション保存場所（Assets/StreamingAssets/Motion）へ行き、.dataを選択
+5. モーションがシーンのアバターに適用される
 
 ※Assets/StreamingAssets/Motionにサンプルモーションを同梱しているので、テスト等にご活用ください。
 
@@ -39,9 +40,11 @@ https://github.com/gree/MuscleCompressor/assets/5110708/b8c7f5ca-2493-4c2c-a33a-
 https://github.com/gree/MuscleCompressor/assets/5110708/8520bcc3-f59d-43ad-b7a9-d236f2846591
 
 1. (Unity 2021.3.19f1でプロジェクトを開いたらOculus IntegrationとFinal IKをPackage Managerからインポート)
-2. Assets/VRStudioLab/Scenes/RecordSceneSample.unityを開き、RecordingManager内のRecording Datasに収録モーションの保存名(Name)と長さ(Duration)を入力
-3. VR機器を接続した状態でPlay
-4. アバター読み込み後、READYボタンを押してからDuration秒のモーションがAssets/StreamingAssets/Motionに保存される
+2. Assets/VRStudioLab/Scenes/RecordSceneSample.unityを開く
+3. TextMeshProが入っていない場合ポップアップが出るので、TMP essentialsをインポート
+4. RecordingManager内のRecording Datasに収録モーションの保存名(Name)と長さ(Duration)を入力
+5. VR機器を接続した状態でPlay
+6. アバター読み込み後、READYボタンを押してからDuration秒のモーションがAssets/StreamingAssets/Motionに保存される
 
 
 
