@@ -46,6 +46,23 @@ https://github.com/gree/MuscleCompressor/assets/5110708/8520bcc3-f59d-43ad-b7a9-
 5. Play the scene wearing VR Device
 6. After an avatar is loaded, push the READY button. The motion recorded for Duration seconds is saved in Assets/StreamingAssets/Motion
 
-
-
+## Citation
+This code is extracted from AI-Assisted Avatar Fashion Show, SIGGRAPH 2023 Posters.
+```
+@inproceedings{10.1145/3588028.3603660,
+author = {Kohyama, Kai and Berthault, Alexandre and Kato, Takuma and Shirai, Akihiko},
+title = {AI-Assisted Avatar Fashion Show: Word-to-Clothing Texture Exploration and Motion Synthesis for Metaverse UGC},
+year = {2023},
+isbn = {9798400701528},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3588028.3603660},
+doi = {10.1145/3588028.3603660},
+booktitle = {ACM SIGGRAPH 2023 Posters},
+articleno = {14},
+numpages = {2},
+location = {Los Angeles, CA, USA},
+series = {SIGGRAPH '23}
+}
+```
 
